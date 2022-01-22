@@ -9,7 +9,7 @@
 /* header da pagina */
 
 header{
-    padding: 2rem 0;
+    padding: 0.5rem 0;
 }
 
 .caixa{
@@ -20,7 +20,7 @@ header{
 
 nav{
     position: absolute;
-    top: 1rem;
+    top: 1.3rem;
     right: 1rem;
 }
 
@@ -32,8 +32,9 @@ nav li{
 nav a{
     text-transform: uppercase;
     color: var(--cor02);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a:hover{
@@ -43,20 +44,24 @@ nav a:hover{
     font-size: 2rem;
 }
 
+nav a#active{
+    color: var(--cor01);
+}
+
 .logo{
     width: 150px;
     margin: 1rem;
 }
 
-.banner img{
+.banner1 img{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
-.banner p{
+.banner1 figcaption{
     position: absolute;
-    top: 230px;
+    top: 300px;
     right: 400px;
     width: 500px;
     text-align: center;
@@ -71,8 +76,8 @@ nav a:hover{
 
 /* main da pagina */
 main{
-   width: 805px;
-   margin: auto;     
+   width: 1200px;
+   margin: auto; 
 }
 .caes{
     width: 800px;
@@ -94,5 +99,133 @@ main{
     text-transform: uppercase;
     padding: auto;
 }
+
+.video{
+    width: 1200px;
+    margin: 5rem auto;
+}
+
+
+article {
+    width: 50%;
+    float: right;
+}
+
+article  h2{
+    text-align: start;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--cor02);
+}
+
+article p{
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+    text-align: justify;
+    margin: 1rem;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor02);
+}
+
+.banner2 img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.banner2 figcaption{
+    position: absolute;
+    top: 1650px;
+    right: 400px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.459);
+}
+
+aside h2{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor02);
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+.mural{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.mural li{
+    display: inline;
+}
+
+.mural img{
+    width: 200px;
+    margin: 1rem 1rem 4rem;
+
+}
+
+footer{
+    background-color: var(--cor02);
+    text-align: center;
+    padding: 1.5rem 0 0 0;
+    border-top: 3px solid var(--cor01);
+}
+
+.titulo-footer{
+    color:whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+footer p{
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 0.32rem;
+}
+
+.redes_sociais li{
+    display: inline-block;
+    
+}
+
+.redes_sociais img{
+    width: 40px;
+    margin: 1rem 1rem;
+}
+
+.copyright{
+    background-color: var(--cor01);
+    margin-top: 1rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
 
 
